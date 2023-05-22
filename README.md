@@ -59,5 +59,3 @@ SELECT
   ROUND((sales::NUMERIC/transactions),2) AS avg_transaction,
   sales
 FROM data_mart.weekly_sales);
-image
-
